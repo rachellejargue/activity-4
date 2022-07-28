@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <meta name="Viewport"content="Width=width-device,initial scale 1">
+        <link rel="stylesheet"href="design.css">
+        <title>ACTIVITY 4</title>
+        
+    <style>
+    </style>
+
+</head>
+<body>
+    <h1align="center" style="border:5x solid greenyellow;"> MENU </h1> 
+<!--FAVORITES-->
+       <a href="myfavorite.html">
+          <button type="button" class="button">
+              <span class="button_icon">
+                <ion-icon name="logo-windows"></ion-icon>
+              
+              </span>
+          </button>
+      
+        </a>
+      
+                <p style="color:black;"> <b>Favorites</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat fugiat dolore dolor quidem, quis tenetur libero enim quaerat ipsum nisi doloremque vero exercitationem animi ducimus rerum pariatur consequuntur, in facilis veritatis illum dolorum numquam incidunt aperiam maxime. Natus, fugit nobis magni ullam rerum quas, quibusdam dolorum, unde fuga ex nam.</p>
+
+ <!--USERS-->
+ 
+<a href="Activity.html">
+  <button type="button" class="button">
+      <span class="button_icon">
+        <!--<ion name="person-outline"></ion-icon-->
+        <ion-icon name="person-outline"></ion-icon>
+      
+      </span>
+  </button>
+
+</a>
+
+        <p style="color:black;"> <b>User Information</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem aut minus aliquam neque consequatur ex sunt voluptate natus perspiciatis quaerat cumque eveniet, quos cum molestiae accusantium esse. Quasi reprehenderit voluptatum aliquid cumque sed officiis pariatur, sit assumenda, numquam architecto perferendis molestiae, soluta praesentium corporis qui tenetur amet temporibus esse.</p>
+      
+<!--FAMILY-->
+
+ 
+<a href="family.html">
+  <button type="button" class="button">
+      <span class="button_icon">
+        <!--<ion name="person-outline"></ion-icon-->
+        <ion-icon name="person-outline"></ion-icon>
+      
+      </span>
+  </button>
+
+</a>
+
+        <p style="color:black;"> <b>My Family</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias minima quasi voluptatem temporibus deserunt cum, nemo aut aliquam aspernatur voluptates hic, veritatis similique nulla incidunt! Quasi incidunt, expedita sint blanditiis consequatur excepturi tempore, autem soluta officiis dolorum, provident aliquam ipsam corrupti sed cum cumque et sit error voluptatum facilis quisquam?</p>
+      
+       <button type="button" class="button">
+         <span class="button_icon">
+          <ion-icon name="home-outline"></ion-icon>
+        
+         </span>
+       </button>
+       
+        <p style="color:black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minima numquam iure animi tempore ab maiores enim accusamus aliquam sint eum ipsum, laboriosam nesciunt ad! Et assumenda cumque neque. Ex eius unde nobis dolorum cum consectetur, tempora temporibus quaerat libero accusantium officiis maiores dolor eveniet, sed dolorem itaque ab impedit!</p>
+      
+      </a>
+
+</body> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html> 
+
+For User
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="Viewport"content="Width=width-device,initial scale 1">
+        <link rel="stylesheet"href="Design.css">
+        <title>User</title>
+        
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-image: url(file:///C:/Users/underground/Desktop/IPT/Activity%204-IPT/SUNSET.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        #container{
+            width:960px;
+            margin: 0 auto;
+            color: black;
+            
+        }
+        .coll{
+            width:450px;
+            float:left;
+            color: black;
+           
+        }
+        .col2{
+            width:450px;
+            float:left;
+            color: black;
+            
+        }
+        img{
+            width:200;
+            height:200;
+            float: right;
+            margin:0 200px 0 0;
+            border: 3px solid lightblue;
+
+        }
+         h2{
+            margin:30px 30px 0 200;
+            color: black;
+        }
+        h1{
+            border:5px transparent;
+            outline-color: transparent;
+            color: black;
+        }
+        h3{
+            color: black;
+            opacity: 80%;
+            font-weight:  bold;
+            text-align: center;
+        }
+
+    </style>
+    </head>
+
+    
+        <body>
+            <h1>My Information </h1>
+<br /><br />
+            
+            <img src="file:///C:/Users/underground/Desktop/IPT/Activity%204-IPT/ate.jpg"width="200" height="200" float="right" margin="0 0 20px 20px">
+            <hr>
+            <h1>Name mo</h1>
+            <h2>I Love Programming</h2>
+            <hr>
+            <br /><br />
+        <div id="container">
+            <div class="coll">
+                <h2 class="heading"> </h2>
+               <h2><p>PLACE OF BIRTH:</p></h2>
+               <h2> <p>CIVIL STATUS:</p></h2>
+               <h2> <p>RELIGION:</p></h2>
+                <h2> <p>CITIZENSHIP:</p></h2>
+                <h2> <p>HEIGHT:</p></h2>
+            </div>
+            <div class="col2">
+                <h2 class="heading"> </h2>
+            <h2> <p>QUEZON CITY</p></h2>
+            <h2> <p>SINGLE</p></h2>
+            <h2> <p>CATHOLIC</p></h2>
+            <h2> <p>FILIPINO</p></h2>
+            <h2> <p>5'3</p></h2>
+            </div>
+        </div>
+        </div>
+
+
+
+
+        </body>
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <a href="family.html">
+            <button type="button" class="button">
+                <span class="button_icon">
+                 <ion-icon name="home-outline"></ion-icon>
+               
+                </span>
+              </button>
+            </a>
+               <p style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ipsa alias iusto nisi odio laborum cum doloribus quod optio deserunt illum eaque, officiis nesciunt odit quos esse fuga porro? Minus accusamus velit impedit, iure possimus, hic doloribus, maiores perspiciatis voluptate veritatis quae a ab. Ipsum maiores ad similique excepturi consequatur!</p>
+             
+             </a>
+           
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
+        
